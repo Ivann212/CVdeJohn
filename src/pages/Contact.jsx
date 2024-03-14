@@ -2,7 +2,7 @@
 
 export default function Contact(){
     return(
-        <div>
+        <div className="Contact">
             <div id="formulaire" className="">
                 <form action="/ma-page-de-traitement" method="post">
                     <ul>

@@ -1,3 +1,31 @@
-#Accueil{
-    background-image: url(./img/hero-bg.jpg);
+#bonjour{
+    width: 100%;
+    color: #EEE ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
+
+@media (min-width: 426px) {
+    #bonjour{
+        background-image: url(./img/hero-bg-tablette.jpg);
+        min-height: 800px;
+        background-position: center;
+    }
+}
+@media (min-width: 300px){
+    #bonjour{
+        background-image: url(./img/hero-bg-mobile.jpg);
+        min-height: 500px;
+        background-position: center;
+    }
+}
+@media (min-width: 769px){
+    #bonjour{
+        background-image: url(./img/hero-bg.jpg);
+        min-height: 800px;
+        padding-top: 300px;
+        background-position: center;
+    }
+}
+
