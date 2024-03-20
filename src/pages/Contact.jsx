@@ -1,8 +1,11 @@
-
+import contactBg from '../img/contact-bg.jpg'
 
 export default function Contact(){
     return(
-        <div className="Contact">
+        <div className="Contact" style={{backgroundImage: `url(${contactBg})`,
+            backgroundSize: "cover",
+        
+        }}>
             <div id="formulaire" className="">
                 <form action="/ma-page-de-traitement" method="post">
                     <ul>

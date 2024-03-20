@@ -1,0 +1,28 @@
+#banner{
+    height: 140px;   
+}
+@media (min-width: 426px) {
+    #banner{
+        background-image: url(../img/banner-tablette.jpg);
+        background-position:center;
+    }
+}
+@media (min-width: 300px){
+    #banner{
+        background-image: url(../img/banner-mobile.jpg);
+        background-position: center;
+    }
+}
+@media (min-width: 769px){
+    #banner{
+        background-image: url(../img/banner.jpg);
+        background-position: center;
+    }
+}
+#bottomcard {
+    background-color: #fff4d2;
+}
+.articles {
+    display: flex;
+    justify-content: center;
+}
