@@ -13,16 +13,16 @@ export default function Blog(){
         <>
             <div id="banner"/>
             <section className="articles">
-                <section className="row pt-5">
+                <section className="row pt-5 text-center">
                     <article class="col-md-6 col-lg-4 mb-5">
                         <div class="card" style={{ width: "18rem"}}>
                             <img src={coder} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                                <h5 class="card-title fw-bolder">Coder son site en HTML/CSS</h5>
+                                <p class="card-text fw-semibold">Apprendre a coder son site en HTML et CSS</p>
                                 <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 22 août 2022</p>
                                     
                         </div>
                     </article>
@@ -30,11 +30,11 @@ export default function Blog(){
                         <div class="card " style={{ width: "18rem"}}>
                             <img src={croissance} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body ">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                                <h5 class="card-title fw-bolder">Vendre ses produits sur le web</h5>
+                                <p class="card-text fw-semibold">Apprendre à vendre ses produits sur internet</p>
                                 <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 2à août 2022</p>
                                 
                         </div>
                     </article>
@@ -42,11 +42,11 @@ export default function Blog(){
                         <div class="card " style={{ width: "18rem"}}>
                             <img src={google} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body ">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                                <h5 class="card-title fw-bolder">Se positionner sur Google</h5>
+                                <p class="card-text fw-semibold">Apprendre à se positionner sur Google</p>
                                 <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 22 août 2022</p>
                                     
                         </div>
                     </article>
@@ -55,11 +55,11 @@ export default function Blog(){
                         <div class="card" style={{ width: "18rem"}}>
                             <img src={screens} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body ">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                                <h5 class="card-title fw-bolder">Coder en responsive design</h5>
+                                <p class="card-text fw-semibold">Apprendre à coder pour tout type d'écran</p>
                                 <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 22 août 2022</p>
                                 
                         </div>
                     </article>
@@ -67,11 +67,11 @@ export default function Blog(){
                         <div class="card" style={{ width: "18rem"}}>
                             <img src={seo} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body ">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                                <h5 class="card-title fw-bolder">Technique de référencement</h5>
+                                <p class="card-text fw-semibold">Apprendre le référencement</p>
                                 <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 22 août 2022</p>
                                     
                         </div>
                     </article>
@@ -79,11 +79,11 @@ export default function Blog(){
                         <div class="card" style={{ width: "18rem"}}>
                             <img src={technos} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
                             <div class="card-body ">
-                                <h5 class="card-title fw-bolder">Espace bien-être</h5>
-                                <p class="card-text fw-semibold">Réalisation d'un site vitrine pour un patricien de bien-être</p>
-                                <a href="#" id="btncard" class="btn btn-primary fw-semibold">Lire la suite</a>
+                                <h5 class="card-title fw-bolder">Apprendre à coder</h5>
+                                <p class="card-text fw-semibold">Apprendre à coder</p>
+                                <a href="#" id="btncard" class="btn btn-primary fw-semibold ">Lire la suite</a>
                             </div>
-                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Site réalisé en HTML/CSS</p>
+                            <p id="bottomcard" className="d-flex justify-content-center mb-0 fw-semibold border-top">Publié le 22 août 2022</p>
                                 
                         </div>
                     </article>

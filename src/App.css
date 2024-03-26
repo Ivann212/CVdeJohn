@@ -28,8 +28,11 @@ header{
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
-p {
+p{
     font-weight: 400;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 600;
 }
 
 

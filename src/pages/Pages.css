@@ -1,13 +1,18 @@
 #banner{
     height: 140px;   
 }
-@media (min-width: 426px) {
+@media (max-width: 768px) {
     #banner{
         background-image: url(../img/banner-tablette.jpg);
         background-position:center;
     }
+    #soulignage {
+        width: 150px;
+        
+    }
+    
 }
-@media (min-width: 300px){
+@media (max-width: 425px){
     #banner{
         background-image: url(../img/banner-mobile.jpg);
         background-position: center;
@@ -18,6 +23,12 @@
         background-image: url(../img/banner.jpg);
         background-position: center;
     }
+    
+    #soulignage {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;   
+    }
 }
 #bottomcard {
     background-color: #fff4d2;
@@ -25,4 +36,35 @@
 .articles {
     display: flex;
     justify-content: center;
+}
+
+.Contactbg {
+    height: 1000px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.Contact {
+    background-color:aliceblue;
+}
+.Contact{
+    
+    text-align: center;
+    position: absolute;   
+    
+    width: 1000px;    
+}
+
+#formulaire{
+    width: 500px;
+}
+#service {
+    width: 350px;
+    height: 350px;
+}
+p{
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 600;
 }
