@@ -25,8 +25,8 @@ export default function Accueil(){
         </section>
             
             
-        <section className="m-5 bg-body-tertiary rounded  d-flex flex-row mb-3 justify-content-center shadow" id="about">
-            <div className="ps-5 mt-3 w-50">
+        <section className="row m-4 bg-body-tertiary rounded  d-flex flex-row  justify-content-center shadow" id="about">
+            <div className="mt-3 col-md-6 col-lg-6">
                 <h2 className="fw-bolder pb-3 border-bottom border-primary border-2">A propos</h2>
                 <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation
                         d'<strong>intégrateur-développeur</strong> web au CEF. Au cours de cette formation, j'ai pu acquérir des bases
@@ -43,7 +43,7 @@ export default function Accueil(){
 
             </div>
 
-            <div id="Compétences" className="pb-5 m-3">
+            <div id="Compétences" className="pb-5 m-3 col-md-6 col-lg-5">
                 <img src={John} className="img-fluid rounded" alt="un developpeur code sur son pc"/>
                 <h3 className="fw-bolder pt-2">Mes compétences</h3>
                 <Competences/>

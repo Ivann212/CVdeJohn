@@ -31,29 +31,29 @@ export default function Footer(){
             <section id="Liens utiles" className="col-md-3 position-relative">
               <div className="d-flex flex-column align-middle">
                 <h5 className="pt-4 fw-bolder">Liens utiles</h5>
-                  <Link id="liensfooter" to="/"><p className="fw-semibold"><i class=" fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Accueil</p></Link>
-                  <Link id="liensfooter" to="blog"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> A propos</p></Link>
-                  <Link id="liensfooter" to="services"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Services</p></Link>
-                  <Link id="liensfooter" to="/contact"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i>  Me contacter</p></Link>
-                  <Link id="liensfooter" to="/Mentions"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Mentions légales</p></Link>
+                  <Link id="liensfooter" to="/"><p className="fw-semibold"><i className=" fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Accueil</p></Link>
+                  <Link id="liensfooter" to="blog"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> A propos</p></Link>
+                  <Link id="liensfooter" to="services"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Services</p></Link>
+                  <Link id="liensfooter" to="/contact"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i>  Me contacter</p></Link>
+                  <Link id="liensfooter" to="/Mentions"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Mentions légales</p></Link>
               </div>
             </section>
 
             <section id="dernieres realisations" className="col-md-3">
               <div className="d-flex flex-column align-middle">
                 <h5 className="pt-4 fw-bolder">Mes dernière réalisations</h5>
-                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Fresh food</p></Link>
-                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Restaurant Akira</p></Link>
-                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Espace bien-être</p></Link>
+                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Fresh food</p></Link>
+                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Restaurant Akira</p></Link>
+                <Link id="liensfooter" to="/Realisations"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Espace bien-être</p></Link>
               </div>
             </section>
 
             <section className="col-md-3 position-relative">
               <div className="d-flex flex-column align-middle">
                 <h5 className="pt-4 fw-bolder">Mes dernier articles</h5>
-                <Link id="liensfooter" to="/blog"><p className="fw-semibold" ><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Coder son site en HTML/CSS</p></Link>
-                <Link id="liensfooter" to="/blog"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Vendre ses produits sur le web</p></Link>
-                <Link id="liensfooter" to="/blog"><p className="fw-semibold"><i class="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Se positionner sur Google</p></Link>
+                <Link id="liensfooter" to="/blog"><p className="fw-semibold" ><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Coder son site en HTML/CSS</p></Link>
+                <Link id="liensfooter" to="/blog"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Vendre ses produits sur le web</p></Link>
+                <Link id="liensfooter" to="/blog"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Se positionner sur Google</p></Link>
 
                 
               </div>
@@ -62,7 +62,7 @@ export default function Footer(){
           
           <section className="copyright mb-3 w-100">
             
-            <p className=""><i class="fa-regular fa-copyright" /> Designed by John Doe</p>
+            <p><i className="fa-regular fa-copyright" /> Designed by John Doe</p>
 
           </section>
 

@@ -33,10 +33,7 @@
 #bottomcard {
     background-color: #fff4d2;
 }
-.articles {
-    display: flex;
-    justify-content: center;
-}
+
 
 .Contactbg {
     height: 1000px;
@@ -68,3 +65,4 @@ p{
 h1, h2, h3, h4, h5{
     font-weight: 600;
 }
+

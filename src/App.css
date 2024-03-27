@@ -22,7 +22,7 @@ header{
     
 }
 #liensheader {
-    color: #EEE;  
+    color: rgba(238, 238, 238, 0.3);  
 }
 .fa-brands{
     --bs-text-opacity: 1;
@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5{
 
 strong {
     color: #000000;
+    font-weight: 600;
 }
 #liensfooter {
     color: #444;
@@ -50,6 +51,9 @@ strong {
     display: flex;
     justify-content: center;
     padding-top: 1%;
+}
+#liensheader:active {
+    color: rgb(238, 238, 238);
 }
 
 

@@ -15,31 +15,31 @@ export default function Realisations(){
                 <p className="pb-2 border-bottom border-primary border-3 ">Voici quelques-unes de mes créations</p>
             </div>
             
-            <section  className="d-flex justify-content-evenly pb-5">
-                <div class="card" style={{ width: "18rem"}}>
-                    <img src={freshfood} class="card-img-top" alt="des legumes"/>
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <h5 class="card-title ">Fresh food</h5>
-                        <p class="card-text  text-center">Réalisation d'un site avec commande en ligne.</p>
-                        <a href="#" id="btncard" class="btn btn-outline-primary ">Voir</a>
+            <section  className="row d-flex justify-content-evenly  pb-5">
+                <div className="card col-md-6 col-lg-4" style={{ width: "18rem"}}>
+                    <img src={freshfood} id="imgcreations" className="card-img-top" alt="des legumes"/>
+                    <div className="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 className="card-title ">Fresh food</h5>
+                        <p className="card-text  text-center">Réalisation d'un site avec commande en ligne.</p>
+                        <a href="#" id="btncard" className="btn btn-outline-primary ">Voir</a>
                     </div>
                     <p id="bottomcard" className="d-flex justify-content-center mb-0  border-top">Site réalisé avec PHP et MYSQL</p>
                 </div>
-                <div class="card" style={{ width: "18rem"}}>
-                    <img src={akira} class="card-img-top" alt="des sushis"/>
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <h5 class="card-title ">Restaurant Akira</h5>
-                        <p class="card-text ">Réalisation d'un site vitrine.</p>
-                        <a href="#" id="btncard" class="btn btn-outline-primary ">Voir</a>
+                <div className="card col-md-6 col-lg-4" style={{ width: "18rem"}}>
+                    <img src={akira} id="imgcreations" className="card-img-top" alt="des sushis"/>
+                    <div className="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 className="card-title ">Restaurant Akira</h5>
+                        <p className="card-text ">Réalisation d'un site vitrine.</p>
+                        <a href="#" id="btncard" className="btn btn-outline-primary ">Voir</a>
                     </div>
                     <p id="bottomcard" className="d-flex justify-content-center mb-0  border-top">Site réalisé avec WordPress</p>
                 </div>
-                <div class="card" style={{ width: "18rem"}}>
-                    <img src={espacebienetre} class="card-img-top" alt="des pierres une tête et une fleur rose"/>
-                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                        <h5 class="card-title ">Espace bien-être</h5>
-                        <p class="card-text  text-center">Réalisation d'un site vitrine pour un patricien de bien-être</p>
-                        <a href="#" id="btncard" class="btn btn-outline-primary ">Voir</a>
+                <div className="card col-md-6 col-lg-4" style={{ width: "18rem"}}>
+                    <img src={espacebienetre} id="imgcreations" className="card-img-top" alt="des pierres une tête et une fleur rose"/>
+                    <div className="card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 className="card-title ">Espace bien-être</h5>
+                        <p className="card-text  text-center">Réalisation d'un site vitrine pour un patricien de bien-être</p>
+                        <a href="#" id="btncard" className="btn btn-outline-primary ">Voir</a>
                     </div>
                     <p id="bottomcard" className="d-flex justify-content-center mb-0  border-top">Site réalisé en HTML/CSS</p>
                     
