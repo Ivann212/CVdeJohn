@@ -15,13 +15,13 @@ export default function Footer(){
               <p className="fw-semibold">Téléphone: 06 20 30 40 50</p>
 
               <div id="réseaux">
-                <a target="_blank" rel="noreferrer" href="">
+                <Link target="_blank" rel="noreferrer" to="/Github">
                   <i className="fa-brands fa-github fa-2xl text-dark"/>
-                </a>
+                </Link>
                 <a className="text-decoration-none" target="_blank" rel="noreferrer" href="">
                   <i className="fa-brands fa-square-twitter fa-2xl ps-3 text-dark"/>
                 </a>
-                <a target="_blank" rel="noreferrer" href="">
+                <a target="_blank" rel="noreferrer" href="/Github">
                   <i className="fa-brands fa-linkedin fa-2xl ps-3 text-dark"/>
                 </a>
             </div>
@@ -32,8 +32,8 @@ export default function Footer(){
               <div className="d-flex flex-column align-middle">
                 <h5 className="pt-4 fw-bolder">Liens utiles</h5>
                   <Link id="liensfooter" to="/"><p className="fw-semibold"><i className=" fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Accueil</p></Link>
-                  <Link id="liensfooter" to="blog"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> A propos</p></Link>
-                  <Link id="liensfooter" to="services"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Services</p></Link>
+                  <Link id="liensfooter" to="/blog"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> A propos</p></Link>
+                  <Link id="liensfooter" to="/services"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Services</p></Link>
                   <Link id="liensfooter" to="/contact"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i>  Me contacter</p></Link>
                   <Link id="liensfooter" to="/Mentions"><p className="fw-semibold"><i className="fa-solid fa-chevron-right" style={{color: '#3a56d7'}}></i> Mentions légales</p></Link>
               </div>

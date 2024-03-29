@@ -10,6 +10,10 @@
         width: 150px;
         
     }
+    #service {
+        width: 200px;
+        height: 400px;
+    }
     
 }
 @media (max-width: 425px){
@@ -17,11 +21,19 @@
         background-image: url(../img/banner-mobile.jpg);
         background-position: center;
     }
+    #service {
+        width: 300px;
+        height: 350px;
+    }
 }
 @media (min-width: 769px){
     #banner{
         background-image: url(../img/banner.jpg);
         background-position: center;
+    }
+    #service {
+        width: 350px;
+        height: 350px;
     }
     
     #soulignage {
@@ -55,10 +67,7 @@
 #formulaire{
     width: 500px;
 }
-#service {
-    width: 350px;
-    height: 350px;
-}
+
 p{
     font-weight: 400;
 }

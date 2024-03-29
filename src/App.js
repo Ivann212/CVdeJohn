@@ -8,6 +8,7 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Mentions from './pages/Mentions'
 import Services from './pages/Services'
+import Github from './pages/Github';
 
 
 function App() {
@@ -19,13 +20,14 @@ function App() {
 
       
         <Routes>
-          <Route path="/" element={<Accueil/>}></Route>
-          <Route path="/realisation" element={<Realisations/>}></Route>
-          <Route path="/blog" element={<Blog/>}></Route>
-          <Route path="/contact" element={<Contact/>}></Route>
-          <Route path="/services" element={<Services/>}></Route>
-          <Route path="/realisations" element={<Realisations/>}></Route>
-          <Route path="/mentions" element={<Mentions/>}></Route>
+          <Route path="/" element={<Accueil/>}/>
+          <Route path="/realisation" element={<Realisations/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/services" element={<Services/>}/>
+          <Route path="/realisations" element={<Realisations/>}/>
+          <Route path="/mentions" element={<Mentions/>}/>
+          <Route path="/Github" element={<Github/>}/>
         </Routes>
      
 
