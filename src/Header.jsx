@@ -44,9 +44,7 @@ export default function Header() {
                     </ul>
                 </div>
             </div>
-        </nav>
-         
-          
+          </nav>
         </header>
      );
 }

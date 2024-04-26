@@ -15,7 +15,7 @@ export default function Realisations(){
                 <p className="pb-2 border-bottom border-primary border-3 ">Voici quelques-unes de mes créations</p>
             </div>
             
-            <section  className="row d-flex justify-content-evenly pb-5">
+            <section  className="row col-lg-12 d-flex justify-content-evenly pb-5">
                 <div className="card col-md-6 col-lg-4" style={{ width: "18rem"}}>
                     <img src={freshfood} id="imgcreations" className="card-img-top" alt="des legumes"/>
                     <div className="card-body d-flex flex-column align-items-center">

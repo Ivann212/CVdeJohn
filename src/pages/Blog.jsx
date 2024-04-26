@@ -13,7 +13,7 @@ export default function Blog(){
         <>
             <div id="banner"/>
             
-                <section className="row pt-5 text-center">
+                <section className="row col-lg-12 pt-5 text-center">
                     <article className="col-md-6 col-lg-4 mb-5">
                         <div className="card" style={{ width: "18rem"}}>
                             <img src={coder} className="card-img-top" alt="des pierres une tête et une fleur rose"/>
